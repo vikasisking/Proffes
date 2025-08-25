@@ -31,8 +31,7 @@ REQUIRED_CHANNELS = [
     #"@+2P-OUmWo1hc0NmNh",
    # "@fasttech3",
    "@PROFESSORXRIZY",
-    "@h2icoder",
-    "@freeotpss"
+    "@h2icoder"
     #"@+pG-1Ka8IixthMzNk"
 ]
 #channel2 = [ "@+F4Md7IotaqcxN2I9" ]
@@ -366,8 +365,8 @@ async def send_number_message(query, data, country_id, carrier_id, changed=False
     )
     keyboard = [
         [
-            InlineKeyboardButton("📩 View OTP", url="https://t.me/SigmaXDiscus"),
-            InlineKeyboardButton("📢 Main Channel", url="https://t.me/HunterXSigma")
+            InlineKeyboardButton("📩 View OTP", url="https://t.me/professorxotp"),
+            InlineKeyboardButton("📢 Main Channel", url="https://t.me/PROFESSORXRIZY")
         ],
         [
             InlineKeyboardButton("🔄 Change Number", callback_data="change_number")
